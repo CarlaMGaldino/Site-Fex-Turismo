@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul.list-items a:hover {
+  color: orange;
+  transition: .5s ease;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px #5a5a5a26;
+}
+
+.menu h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+
+section#apresentacao-section p {
+  margin: 40px 0 50px 0;
+  color: #5a5a5a;
+  font-size: 30px;
+}
+
+.texto-apresentação h1 {
+  color: orange;
+  font-size: 50px;
+}
+
+h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.texto-apresentação p {
+  margin: 20px 0 50px 0;
+}
+
+a.btn, .item-serviço a {
+  text-decoration: none;
+  color: #fff;
+  background: orange;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 30px;
+
+}
+
+a.btn:hover, .item-serviço a:hover {
+  background: rgb(233, 187, 102);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+ul.list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+ul.list-items li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section#quem-somos .apresentação {
+  flex-direction: row-reverse;
+}
+
+.apresentação {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+
+.texto-apresentação h1 {
+  position: relative;
+}
+
+.texto-apresentação h1::after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: orange;
+  display: block;
+  z-index: 9999;
+  position: absolute;
+  top: 50px;
+}
+
+.texto-apresentação {
+  width: 45%;
+}
+
+div#quem-somos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.apresentação-box {
+  width: 45%;
+}
+
+
+.lista-serviços {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 50px;
+}
+
+
+.apresentação-box h2 {
+  position: relative;
+}
+
+section#quem-somos {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+section#apresentacao-section {
+  padding: 50px 0;
+}
+
+.item-serviço {
+  background: #fff;
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  border: 2px solid #5a5a5a0f;
+  padding: 30px 10px 40px 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+
+section#servicos {
+  background: #fafafa;
+  padding: 80px 0;
+}
+
+section#servicos h2 {
+  position: relative;
+}
+
+section#servicos h2::after, .apresentação-box h2::after {
+  background-color: orange !important;
+}
+
+.item-serviço p {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+section#planos {
+  background-color: orange;
+  padding: 80px 0;
+}
+
+.list-planos {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item-plano {
+  width: 200px;
+  height: auto;
+  background: #fafafa;
+  padding: 20px 20px 30px 20px;
+  transition: .7s ease;
+}
+
+.item-plano:hover {
+  box-shadow: 2px 2px 2px 2px #5a5a5a52;
+  transform: scale3d(1.1, 1.1, .5);
+  transition: .7s ease;
+  cursor: pointer;
+}
+
+
+.item-serviço-img img {
+  box-shadow: none;
+}
+
+.item-plano ul {
+  padding: 30px 0;
+}
+
+.item-plano ul li {
+  padding: 10px 0;
+}
+
+.item-plano h3 {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+section#planos h2 {
+  color: #fff;
+  position: relative;
+}
+
+h2:after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: white;
+  display: block;
+  z-index: 9999;
+  position: absolute;
+  top: 34px;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-box p {
+  font-size: 14px;
+
+}
+
+.lista-serviços.mobile {
+  display: none;
+}
+
+.lista-serviços.descktop {
+  display: flex;
+}
+
+@media screen and (max-width: 769px) {
+
+  .lista-serviços.mobile {
+    display: block;
+  }
+
+  .lista-serviços.descktop {
+    display: none;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  ul.list-items {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  ul.list-items li a {
+    font-size: 14px;
+  }
+
+  .apresentação {
+    flex-direction: column;
+    justify-content: center;
+    padding: initial;
+  }
+
+  .texto-apresentação {
+    width: 100%;
+  }
+
+  .texto-apresentação h1 {
+    font-size: 35px;
+  }
+
+  section#apresentacao-section p {
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+  }
+
+  .texto-apresentação div {
+    margin-top: 50px;
+  }
+
+  section#quem-somos, section#servicos, section#planos {
+    padding: 40px 0;
+  }
+
+  section#apresentacao-section {
+    padding: 50px 0;
+  }
+
+  section#quem-somos .apresentação {
+    flex-direction: column;
+  }
+
+  .apresentação-box {
+    width: 100%;
+  }
+
+  .lista-serviços {
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .item-serviço {
+    margin-bottom: initial;
+  }
+
+  .item-serviço p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .footer-box p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .list-planos {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .item-plano:not(:last-of-type) {
+    margin-bottom: 30px;
+  }
+
+
+  .slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+
+
+}
